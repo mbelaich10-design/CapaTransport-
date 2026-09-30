@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>CapaTransport — Simulateur de projet transport</title>
+  <meta name="description" content="Estimez gratuitement le chiffre d’affaires, les charges, la marge et le seuil de rentabilité de votre projet d’entreprise de transport routier.">
+  <meta name="theme-color" content="#0b1b33">
+  <meta property="og:title" content="CapaTransport — Votre projet de transport est-il rentable ?">
+  <meta property="og:description" content="Estimez votre chiffre d’affaires, vos charges, votre marge et votre seuil de rentabilité en quelques minutes.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/css/app.css">
+  <script type="module" src="/js/simulator/main.js"></script>
+</head>
+<body>
+  <a class="skip" href="#contenu">Aller au contenu</a>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="/" data-link aria-label="CapaTransport, accueil">
+        <span class="brand-mark"><svg width="20" height="20" aria-hidden="true"><use href="/sprite.svg#i-truck"/></svg></span>
+        <span>CapaTransport<small>Formation</small></span>
+      </a>
+      <nav class="site-nav" aria-label="Navigation principale" id="site-nav">
+        <a href="/#comment" data-link>Comment ça marche</a>
+        <a href="/#faq" data-link>Questions</a>
+      </nav>
+      <a class="btn btn-primary btn-sm" href="/simulation/1" data-link id="header-cta">Simuler mon projet</a>
+    </div>
+  </header>
+
+  <main id="contenu" tabindex="-1">
+    <!-- ================= ACCUEIL ================= -->
+    <div id="view-landing">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div>
+            <span class="eyebrow"><svg width="16" height="16" aria-hidden="true"><use href="/sprite.svg#i-calc"/></svg> Simulateur de projet transport</span>
+            <h1>Votre projet de transport est-il rentable&nbsp;?</h1>
+            <p class="lead">Estimez votre chiffre d’affaires, vos charges, votre marge et votre seuil de rentabilité en quelques minutes.</p>
+            <a class="btn btn-primary btn-lg" href="/simulation/1" data-link>Simuler mon projet gratuitement <svg width="20" height="20" aria-hidden="true"><use href="/sprite.svg#i-arrow"/></svg></a>
+            <ul class="trust-list">
+              <li><svg width="18" height="18" aria-hidden="true"><use href="/sprite.svg#i-check"/></svg> Gratuit</li>
+              <li><svg width="18" height="18" aria-hidden="true"><use href="/sprite.svg#i-check"/></svg> Environ 3 minutes</li>
+              <li><svg width="18" height="18" aria-hidden="true"><use href="/sprite.svg#i-check"/></svg> Fait pour le mobile</li>
+            </ul>
+          </div>
+          <div class="mock" aria-hidden="true">
+            <div class="mock-tag"><span>Exemple illustratif</span><span>Par mois</span></div>
+            <div class="mock-kpis">
+              <div class="mock-kpi"><span>Chiffre d’affaires</span><strong>3 000 €</strong></div>
+              <div class="mock-kpi"><span>Charges</span><strong>1 444 €</strong></div>
+              <div class="mock-kpi hl"><span>Résultat avant rémunération</span><strong>1 556 €</strong></div>
+              <div class="mock-kpi"><span>Seuil de rentabilité</span><strong>1 031 €</strong></div>
+            </div>
+            <div class="mock-bars">
+              <div class="mock-bar" data-w="100" data-c="var(--s1)"></div>
+              <div class="mock-bar" data-w="48" data-c="var(--s2)"></div>
+              <div class="mock-bar" data-w="52" data-c="var(--s3)"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="ce-que-vous-obtenez">
+        <div class="container">
+          <div class="section-head">
+            <h2>Ce que vous obtenez</h2>
+            <p>Un chiffrage clair de votre projet, calculé à partir de <em>vos</em> hypothèses.</p>
+          </div>
+          <div class="cards c3">
+            <article class="card feature"><div class="feature-icon"><svg width="22" height="22" aria-hidden="true"><use href="/sprite.svg#i-euro"/></svg></div><h3>Chiffre d’affaires</h3><p>Votre CA mensuel et annuel estimé selon votre rythme de travail et vos tarifs.</p></article>
+            <article class="card feature"><div class="feature-icon"><svg width="22" height="22" aria-hidden="true"><use href="/sprite.svg#i-truck"/></svg></div><h3>Charges détaillées</h3><p>Véhicule, carburant, assurance, entretien, péages… avec des valeurs pré-remplies que vous ajustez.</p></article>
+            <article class="card feature"><div class="feature-icon"><svg width="22" height="22" aria-hidden="true"><use href="/sprite.svg#i-chart"/></svg></div><h3>Marge et résultat</h3><p>Ce qu’il resterait avant votre rémunération, et la marge correspondante.</p></article>
+            <article class="card feature"><div class="feature-icon"><svg width="22" height="22" aria-hidden="true"><use href="/sprite.svg#i-scale"/></svg></div><h3>Seuil de rentabilité</h3><p>Le chiffre d’affaires à atteindre pour couvrir vos charges, et le nombre de jours que cela représente.</p></article>
+            <article class="card feature"><div class="feature-icon"><svg width="22" height="22" aria-hidden="true"><use href="/sprite.svg#i-target"/></svg></div><h3>Votre objectif de revenu</h3><p>Le CA nécessaire pour dégager le revenu mensuel que vous visez, expliqué pas à pas.</p></article>
+            <article class="card feature"><div class="feature-icon"><svg width="22" height="22" aria-hidden="true"><use href="/sprite.svg#i-file"/></svg></div><h3>Un rapport clair</h3><p>Des graphiques lisibles et une analyse en français, à conserver ou à imprimer.</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="comment">
+        <div class="container">
+          <div class="section-head"><h2>Comment ça marche</h2></div>
+          <div class="steps">
+            <div class="card plain step-card"><span class="step-num">1</span><div><h3>Décrivez votre projet</h3><p class="muted">Type de transport, activité, véhicule et rythme de travail.</p></div></div>
+            <div class="card plain step-card"><span class="step-num">2</span><div><h3>Ajustez vos charges</h3><p class="muted">Des valeurs indicatives sont proposées : remplacez-les par les vôtres.</p></div></div>
+            <div class="card plain step-card"><span class="step-num">3</span><div><h3>Lisez vos résultats</h3><p class="muted">Recevez gratuitement le rapport complet pour votre projet.</p></div></div>
+          </div>
+          <div class="cta-band">
+            <h2>Prêt à chiffrer votre projet&nbsp;?</h2>
+            <p>Quelques questions suffisent pour obtenir une première estimation.</p>
+            <a class="btn btn-amber btn-lg" href="/simulation/1" data-link>Simuler mon projet gratuitement</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section faq" id="faq">
+        <div class="container narrow">
+          <div class="section-head"><h2>Questions fréquentes</h2></div>
+          <details><summary>Le simulateur est-il gratuit&nbsp;?</summary><p>Oui. La simulation est gratuite. Une partie des résultats s’affiche immédiatement ; le rapport complet est débloqué en renseignant vos coordonnées.</p></details>
+          <details><summary>Les résultats sont-ils fiables&nbsp;?</summary><p>Ils dépendent entièrement des hypothèses que vous saisissez. Il s’agit d’une estimation indicative, qui ne constitue ni une prévision comptable, ni un conseil fiscal ou juridique, et non d’une garantie de revenu.</p></details>
+          <details><summary>Que deviennent mes données&nbsp;?</summary><p>Elles servent à calculer et à vous fournir votre rapport. Vous ne recevez de communications commerciales que si vous cochez explicitement la case prévue. Détails dans la <a href="/confidentialite">politique de confidentialité</a>.</p></details>
+          <details><summary>Les cotisations sociales et l’impôt sont-ils inclus&nbsp;?</summary><p>Non. Le « résultat avant rémunération » est calculé avant cotisations sociales et impôts, qui dépendent de votre statut et de votre situation.</p></details>
+        </div>
+      </section>
+    </div>
+
+    <!-- ================= SIMULATEUR / RÉSULTATS (rendus par JS) ================= -->
+    <div id="view-app" hidden></div>
+    <noscript><div class="container narrow page-simple"><h1>JavaScript requis</h1><p>Le simulateur nécessite JavaScript. Merci de l’activer dans votre navigateur.</p></div></noscript>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p class="disclaimer"><strong>Simulation indicative.</strong> Les résultats sont calculés à partir des hypothèses renseignées et ne constituent ni une prévision comptable, ni un conseil fiscal ou juridique.</p>
+      <div class="footer-row">
+        <span>© CapaTransport Formation</span>
+        <a href="/confidentialite">Confidentialité et données personnelles</a>
+      </div>
+    </div>
+  </footer>
+  <div class="toast-area" id="toasts" aria-live="polite"></div>
+</body>
+</html>
